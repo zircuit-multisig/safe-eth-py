@@ -1419,4 +1419,14 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     EthereumNetwork.BLAST_SEPOLIA_TESTNET: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 1087898),  # v1.3.0
     ],
+    EthereumNetwork.OPEN_CAMPUS_CODEX: [
+        (
+            "0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC",
+            468,
+        ),  # v1.3.0  Safe singleton address
+        (
+            "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+            562,
+        ),  # v1.3.0  Default singleton address
+    ]
 }
